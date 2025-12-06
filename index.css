@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+:root {
+    --nexus-accent-30: rgba(59, 130, 246, 0.3);
+}
+
+body {
+    @apply bg-neutral-950 text-white;
+}
+
+.selection\:bg-nexus-accent\/30::selection {
+    background-color: var(--nexus-accent-30);
+}

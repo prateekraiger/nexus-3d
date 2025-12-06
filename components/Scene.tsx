@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { NEXUS_CONFIG } from '../lib/config';
 import { clamp, lerp, randomRange } from '../lib/utils';
 import { CardState, CameraState, Velocity } from '../types';
-import { IconExpand } from './ui/Icons';
 import Modal from './ui/Modal';
+import Card from './Card';
 
 const { grid, camera: camConfig } = NEXUS_CONFIG;
 
@@ -57,8 +57,8 @@ export default function Scene() {
           baseZ,
           tiltX: randomRange(-4, 4),
           tiltY: randomRange(-7, 7),
-          amp: 10 + Math.random() * 20,
-          spd: 0.5 + Math.random() * 0.8,
+          amp: 10 + Math.random() * 10,
+          spd: 0.3 + Math.random() * 0.5,
           ph: Math.random() * Math.PI * 2,
           w,
           h,
@@ -118,9 +118,9 @@ export default function Scene() {
       velocity.current.z += acc.z * speed * dt;
       
       // Friction / Damping
-      velocity.current.x *= 0.9;
-      velocity.current.y *= 0.9;
-      velocity.current.z *= 0.9;
+      velocity.current.x *= 0.88;
+      velocity.current.y *= 0.88;
+      velocity.current.z *= 0.88;
 
       // 2. Update Target Position
       target.current.x += velocity.current.x * dt;
@@ -131,8 +131,8 @@ export default function Scene() {
       // 3. Smooth Camera Follow (Lerp)
       const cam = camera.current;
       const tgt = target.current;
-      const lerpFactor = 1 - Math.pow(0.06, dt * 60); // Frame-rate independent lerp
-      const rotFactor = 1 - Math.pow(0.12, dt * 60);
+      const lerpFactor = 1 - Math.pow(0.03, dt * 60); // Frame-rate independent lerp
+      const rotFactor = 1 - Math.pow(0.05, dt * 60);
 
       cam.x = lerp(cam.x, tgt.x, lerpFactor);
       cam.y = lerp(cam.y, tgt.y, lerpFactor);
@@ -278,17 +278,10 @@ export default function Scene() {
           style={{ transformStyle: 'preserve-3d' }}
         >
           {cards.map((card, i) => (
-            <div
+            <Card
               key={i}
               ref={(el) => (cardRefs.current[i] = el)}
-              className="absolute group rounded-xl bg-neutral-900/40 backdrop-blur-md ring-1 ring-white/10 shadow-2xl cursor-pointer"
-              style={{
-                width: card.w,
-                height: card.h,
-                transformStyle: 'preserve-3d',
-                // Initial transform to prevent FOUC, though RAF overrides immediately
-                transform: `translate3d(${card.baseX}px, ${card.baseY}px, ${card.baseZ}px)`
-              }}
+              card={card}
               onPointerEnter={() => activeHover.current = i}
               onPointerLeave={() => activeHover.current = null}
               onClick={(e) => {
@@ -297,28 +290,7 @@ export default function Scene() {
                     setModalState({ isOpen: true, img: card.imgSrc, title: card.title });
                 }
               }}
-            >
-              {/* Inner Content */}
-              <div className="relative w-full h-full overflow-hidden rounded-xl">
-                 <img 
-                   src={card.imgSrc} 
-                   alt="Card" 
-                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                   loading="lazy"
-                 />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
-                 
-                 {/* Card Footer */}
-                 <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                    <div className="flex items-center justify-between">
-                        <span className="text-xs font-medium text-white/90 truncate mr-2">{card.title}</span>
-                        <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center backdrop-blur-md border border-white/10">
-                            <IconExpand className="w-4 h-4 text-white" />
-                        </div>
-                    </div>
-                 </div>
-              </div>
-            </div>
+            />
           ))}
         </div>
       </div>
