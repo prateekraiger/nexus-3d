@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>NEXUS 3D | Professional Portfolio Template</title>
+        <meta
+            name="description"
+            content="Interactive 3D Portfolio Grid Template"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: ["Inter", "sans-serif"],
+                        },
+                        colors: {
+                            nexus: {
+                                900: "#0a0a0a",
+                                800: "#171717",
+                                accent: "#3b82f6",
+                            },
+                        },
+                    },
+                },
+            };
+        </script>
+        <style>
+            body {
+                background-color: #0a0a0a;
+                color: white;
+                overflow: hidden; /* Prevent native scroll */
+            }
+            /* Custom Scrollbar for modal content if needed */
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+            ::-webkit-scrollbar-track {
+                background: rgba(255, 255, 255, 0.05);
+            }
+            ::-webkit-scrollbar-thumb {
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 4px;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(255, 255, 255, 0.3);
+            }
+        </style>
+        <script type="importmap">
+            {
+                "imports": {
+                    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+                    "react": "https://aistudiocdn.com/react@^19.2.1",
+                    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+                    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+                    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@^3.4.0"
+                }
+            }
+        </script>
+        <link rel="stylesheet" href="/index.css" />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/index.tsx"></script>
+    </body>
+</html>
