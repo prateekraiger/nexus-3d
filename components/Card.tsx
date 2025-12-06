@@ -1,6 +1,4 @@
 import React from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import { CardState } from '../types';
 import { IconExpand } from './ui/Icons';
 
@@ -27,11 +25,11 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(({ card, onPointerEnter
       onClick={onClick}
     >
       <div className="relative w-full h-full overflow-hidden rounded-xl">
-        <LazyLoadImage
+        <img
           src={card.imgSrc}
           alt="Card"
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          effect="blur"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
         <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
