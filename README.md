@@ -1,6 +1,6 @@
-# NEXUS 3D Interactive Portfolio
+# NEXUS 3D Space
 
-This is a high-performance 3D interactive portfolio built with React, Vite, and Tailwind CSS.
+This is a high-performance 3D space built with React, Vite, and Tailwind CSS.
 
 ## Built by Prateek Raiger
 

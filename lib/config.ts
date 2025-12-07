@@ -3,7 +3,7 @@ import { IMAGES } from './images';
 export const NEXUS_CONFIG = {
   meta: {
     title: "NEXUS 3D",
-    subtitle: "Interactive Portfolio • Drag to Explore",
+    subtitle: "3D Space • Drag to Explore",
     version: "1.0.0"
   },
   grid: {
@@ -26,8 +26,8 @@ export const NEXUS_CONFIG = {
       pitchMax: 25
     },
     initial: {
-      x: 0, 
-      y: 0, 
+      x: 0,
+      y: 0,
       z: 800,
       pitch: -6,
       yaw: 0
