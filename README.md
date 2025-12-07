@@ -1,29 +1,24 @@
 # NEXUS 3D Space
 
-This is a high-performance 3D space built with React, Vite, and Tailwind CSS.
+A premium, high-performance 3D immersive environment template built for showcasing portfolios, collections, or creative projects. Designed with React, Vite, and Tailwind CSS to deliver a stunning, interactive user experience.
 
-## Built by Prateek Raiger
+## 🔗 Live Demo
+[View Live Demo](#) <!-- Replace with your live link -->
 
-- GitHub: [https://github.com/prateekraiger](https://github.com/prateekraiger)
+## ✨ Features
 
-## Features
+- **Immersive 3D Environment**: Smooth, physics-based floating animations and depth.
+- **Interactive Controls**: Intuitive navigation via mouse drag, scroll, and keyboard (WASD/Arrows).
+- **High Performance**: Optimized with lazy loading and efficient rendering for 60fps performance.
+- **Responsive Design**: Fully responsive layout with mobile optimization and warnings.
+- **Modern Tech Stack**: Built with React 19, Vite, and Tailwind CSS v4.
+- **Easy Customization**: Modular configuration for grid layout, camera settings, and content.
 
-- 3D environment with smooth animations
-- Lazy-loaded images for improved performance
-- Interactive camera controls (WASD, mouse drag, scroll)
-- Responsive design
+## 📄 License
 
-## Getting Started
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/prateekraiger/nexus-3d.git
-   ```
-2. Install the dependencies:
-   ```bash
-   pnpm install
-   ```
-3. Start the development server:
-   ```bash
-   pnpm dev
-   ```
+## 👨‍💻 Author
+
+**Prateek Raiger**
+- GitHub: [@prateekraiger](https://github.com/prateekraiger)
