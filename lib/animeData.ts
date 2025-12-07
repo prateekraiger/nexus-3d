@@ -15,8 +15,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.9,
     review:
-      "Psychological thriller at its best. The cat and mouse game between Light and L is absolutely captivating.",
-    genre: ["Crime", "Drama", "Fantasy"],
+      "A razor‑sharp psychological thriller where every episode feels like a high‑stakes chess match between Light and L.",
+    genre: ["Mystery", "Psychological Thriller", "Supernatural"],
   },
   {
     title: "One Piece",
@@ -25,8 +25,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 9.0,
     review:
-      "Epic adventure with amazing world-building. The character development and emotional moments are incredible.",
-    genre: ["Action", "Adventure", "Comedy"],
+      "A legendary long‑running adventure packed with emotional payoffs, unforgettable characters, and insanely rich world‑building.",
+    genre: ["Action", "Adventure", "Fantasy"],
   },
   {
     title: "Attack on Titan",
@@ -35,8 +35,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 9.2,
     review:
-      "Epic storytelling with incredible animation. The plot twists are mind-blowing and the characters are well-developed.",
-    genre: ["Action", "Drama", "Fantasy"],
+      "A brutal and gripping dark fantasy that keeps raising the stakes with massive twists, political intrigue, and flawless tension.",
+    genre: ["Action", "Dark Fantasy", "Post-Apocalyptic"],
   },
   {
     title: "Naruto",
@@ -45,7 +45,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.7,
     review:
-      "Classic ninja adventure with incredible character growth. Naruto's journey from outcast to hero is inspiring and emotional.",
+      "A classic coming‑of‑age shonen about perseverance, bonds, and legacy, with some of the most iconic arcs and rivalries in anime.",
     genre: ["Action", "Adventure", "Martial Arts"],
   },
   {
@@ -55,8 +55,38 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 9.1,
     review:
-      "Outstanding adaptation with incredible animation. The power progression and world-building are phenomenal.",
+      "A power‑fantasy done right with slick animation, satisfying glow‑ups, and a world that gets more addictive every episode.",
     genre: ["Action", "Fantasy", "Supernatural"],
+  },
+  {
+    title: "My Hero Academia",
+    posterUrl:
+      "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FphuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
+    category: "Anime",
+    rating: 8.6,
+    review:
+      "A modern superhero shonen with a huge cast, big emotional moments, and battles that constantly push its heroes beyond their limits.",
+    genre: ["Action", "Superhero", "School"],
+  },
+  {
+    title: "Jujutsu Kaisen",
+    posterUrl:
+      "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FfHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    category: "Anime",
+    rating: 8.9,
+    review:
+      "A cursed‑energy battle series with insane choreography, stylish direction, and a cast that balances humor with heavy emotional stakes.",
+    genre: ["Action", "Dark Fantasy", "Supernatural"],
+  },
+  {
+    title: "Steins;Gate",
+    posterUrl:
+      "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F5zxePQEsUKLYDh2kpXGQAeInjUU.jpg",
+    category: "Anime",
+    rating: 9.1,
+    review:
+      "A time‑travel thriller that starts slow but pays off with incredible tension, character growth, and one of the most satisfying sci‑fi plots in anime.",
+    genre: ["Sci-Fi", "Psychological", "Time Travel"],
   },
   {
     title: "One Punch Man",
@@ -65,7 +95,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.8,
     review:
-      "Perfect blend of comedy and action. Saitama's existential crisis about being too powerful is brilliantly executed.",
+      "A brilliantly self‑aware parody of superheroes and shonen tropes that still delivers top‑tier action and visual spectacle.",
     genre: ["Action", "Comedy", "Superhero"],
   },
   {
@@ -75,7 +105,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 9.3,
     review:
-      "Complex storytelling with incredible character development. The Chimera Ant arc is a masterpiece of anime.",
+      "Deceptively light at first, then evolves into a masterpiece of character writing, strategy‑driven battles, and moral complexity.",
     genre: ["Action", "Adventure", "Fantasy"],
   },
   {
@@ -85,8 +115,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.6,
     review:
-      "Stunning animation with great fight scenes. The story is engaging and the characters are likeable.",
-    genre: ["Action", "Animation", "Drama"],
+      "A visual showcase with gorgeous sword fights, heartfelt sibling bonds, and a simple but engaging demon‑hunting story.",
+    genre: ["Action", "Dark Fantasy", "Drama"],
   },
   {
     title: "Bleach",
@@ -95,8 +125,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.2,
     review:
-      "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil.",
-    genre: ["Action", "Fantasy", "Martial Arts"],
+      "A stylish supernatural battle series with iconic powers, memorable captains, and some of the cleanest aesthetics in shonen.",
+    genre: ["Action", "Supernatural", "Fantasy"],
   },
   {
     title: "Vinland Saga",
@@ -105,7 +135,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 9.1,
     review:
-      "Epic historical drama about Vikings. Thorfinn's character development from revenge to redemption is beautiful.",
+      "A mature Viking epic that trades edge for introspection, delivering a powerful story about vengeance, war, and true strength.",
     genre: ["Historical", "Drama", "Action"],
   },
   {
@@ -115,7 +145,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.9,
     review:
-      "Unique animation style with deep emotional storytelling. Mob's journey of self-discovery is incredibly touching.",
+      "Under the quirky art style hides an emotionally rich story about self‑worth, empathy, and what it means to grow up with power.",
     genre: ["Supernatural", "Comedy", "Drama"],
   },
   {
@@ -125,7 +155,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.8,
     review:
-      "The best sports anime ever made. Every match is intense and the character development is phenomenal.",
+      "A peak sports anime that makes every rally feel like life or death, backed by lovable characters and electric match direction.",
     genre: ["Sports", "School", "Drama"],
   },
   {
@@ -135,8 +165,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.2,
     review:
-      "Underrated shonen with great magic system. Asta's determination and the squad dynamics are engaging.",
-    genre: ["Action", "Magic", "Adventure"],
+      "A loud but lovable underdog story with a fun magic system, squad chemistry, and hype battles that keep leveling up.",
+    genre: ["Action", "Adventure", "Fantasy"],
   },
   {
     title: "Dr. Stone",
@@ -145,8 +175,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.4,
     review:
-      "Educational and entertaining. The scientific approach to rebuilding civilization is fascinating and fun.",
-    genre: ["Sci-Fi", "Adventure", "Educational"],
+      "A refreshingly brainy series that turns science experiments into hype shonen moments while rebuilding civilization from scratch.",
+    genre: ["Sci-Fi", "Adventure", "Comedy"],
   },
   {
     title: "Assassination Classroom",
@@ -155,7 +185,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.6,
     review:
-      "Unique premise with surprising emotional depth. Koro-sensei is one of the best teachers in anime.",
+      "A weird premise that turns into a surprisingly heartfelt story about growth, mentorship, and second chances.",
     genre: ["Comedy", "School", "Action"],
   },
   {
@@ -165,7 +195,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.3,
     review:
-      "Classic mystery series with clever cases. Conan's deductive skills and the overarching plot are captivating.",
+      "An endlessly entertaining mystery series full of clever cases, classic whodunits, and a long‑running overarching conspiracy.",
     genre: ["Mystery", "Detective", "Adventure"],
   },
   {
@@ -175,8 +205,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.5,
     review:
-      "Wholesome family comedy with spy elements. Anya's telepathic antics and family dynamics are adorable.",
-    genre: ["Comedy", "Family", "Action"],
+      "A cozy blend of spy action and family comedy, carried by Anya’s chaos and the Forgers’ secretly sweet dynamics.",
+    genre: ["Comedy", "Slice of Life", "Action"],
   },
   {
     title: "Pluto",
@@ -185,7 +215,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 9.2,
     review:
-      "Mature sci-fi masterpiece exploring AI consciousness. Dark, philosophical, and beautifully animated.",
+      "A slow‑burn sci‑fi noir that digs deep into AI, grief, and war, with meticulous storytelling and haunting atmosphere.",
     genre: ["Sci-Fi", "Drama", "Mystery"],
   },
   {
@@ -195,7 +225,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.4,
     review:
-      "Dark and chaotic with incredible animation. Denji's simple desires contrast beautifully with the horror.",
+      "A bloody, unhinged ride that mixes dark humor, raw ambition, and brutal action with surprisingly grounded characters.",
     genre: ["Action", "Horror", "Supernatural"],
   },
   {
@@ -205,7 +235,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.6,
     review:
-      "Wild supernatural comedy with amazing animation. The perfect blend of aliens, ghosts, and teenage chaos.",
+      "Chaotic in the best way, blending aliens, ghosts, romance, and comedy into high‑energy, beautifully animated insanity.",
     genre: ["Supernatural", "Comedy", "Action"],
   },
   {
@@ -215,8 +245,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.1,
     review:
-      "Harry Potter meets One Punch Man. Mash's muscle magic in a world of wizards is hilariously entertaining.",
-    genre: ["Comedy", "Magic", "School"],
+      "A dumb‑fun magic school parody where the punchlines hit as hard as Mash’s fists in a world obsessed with spells.",
+    genre: ["Comedy", "Fantasy", "School"],
   },
   {
     title: "Fire Force",
@@ -225,8 +255,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.2,
     review:
-      "Unique fire-based powers with great animation. The world-building and mystery elements are engaging.",
-    genre: ["Action", "Supernatural", "Firefighting"],
+      "A flashy, fire‑fueled action series with creative powers, stylish animation, and a surprisingly deep lore.",
+    genre: ["Action", "Supernatural", "Sci-Fi"],
   },
   {
     title: "Cyberpunk: Edgerunners",
@@ -235,7 +265,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.8,
     review:
-      "Stunning cyberpunk animation with emotional depth. David's story is tragic and beautifully told.",
+      "A brutally stylish tragedy set in Night City, mixing neon‑drenched chaos with a heartbreakingly human story.",
     genre: ["Sci-Fi", "Action", "Cyberpunk"],
   },
   {
@@ -245,7 +275,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.3,
     review:
-      "Time travel delinquent story with heart. Takemichi's determination to save his friends is compelling.",
+      "A time‑loop delinquent drama where regret, friendship, and gang politics collide in emotionally heavy arcs.",
     genre: ["Time Travel", "Drama", "Action"],
   },
   {
@@ -255,8 +285,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.4,
     review:
-      "High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.",
-    genre: ["Animation", "Drama", "Sport", "Thriller"],
+      "An intense, ego‑driven take on football that treats every match like a psychological battle for survival.",
+    genre: ["Sports", "Psychological", "Drama"],
   },
   {
     title: "Kuroko's Basketball",
@@ -265,8 +295,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 7.4,
     review:
-      "In the story, Kagami Taiga has just enrolled into Seirin High School when he meets Kuroko Tetsuya of the school's basketball team. Kuroko happens to be the shadowy sixth member of the legendary Generation of Miracles basketball team. Together, Kagami and Kuroko aim to take their team to the inter-high school championship - against Kuroko's former teammates.",
-    genre: ["Comedy", "Anime", "Drama", "Sport"],
+      "Over‑the‑top but insanely fun, turning basketball into a spectacle of wild abilities, hype matches, and strong rivalries.",
+    genre: ["Sports", "Comedy", "Drama"],
   },
   {
     title: "Kaiju No. 8",
@@ -275,8 +305,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 8.6,
     review:
-      "In a world plagued by creatures known as Kaiju, Kafka Hibino aspired to enlist in The Defense Force. He makes a promise to enlist with his childhood friend, Mina Ashiro. Soon, life takes them in separate ways. While employed cleaning up after Kaiju battles, Kafka meets Reno Ichikawa. Reno's determination to join The Defense Force reawakens Kafka's promise to join Mina and protect humanity.",
-    genre: ["Anime", "Animation", "Action", "Adventure"],
+      "A monster‑hunting series with a relatable older MC, strong camaraderie, and punchy kaiju fights.",
+    genre: ["Action", "Sci-Fi", "Monster"],
   },
   {
     title: "Sakamoto Days",
@@ -285,8 +315,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 7.4,
     review:
-      "Once the world's most feared hitman, Taro Sakamoto falls in love with Store Clerk Aoi. Leaving his violent past, he retires to live a peaceful life. But old enemies threaten to pull him back into the life he thought he'd left for good.",
-    genre: ["Animation", "Comedy", "Action", "Adventure"],
+      "A laid‑back but lethal retired hitman story that balances slice‑of‑life comedy with sharp, creative action.",
+    genre: ["Action", "Comedy", "Slice of Life"],
   },
   {
     title: "Lupin the Third",
@@ -295,8 +325,8 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 7.8,
     review:
-      "Lupin the 3rd, The World's Greatest thief, who's proud of being the grandson of the infamous French thief: Arsene Lupin. Accompanied by his comrades who help him pull off the biggest heists in thievery history.",
-    genre: ["Action", "Adventure", "Comedy", "Crime"],
+      "A stylish, old‑school caper series about the world’s greatest thief, full of heists, humor, and jazzy flair.",
+    genre: ["Action", "Adventure", "Crime", "Comedy"],
   },
   {
     title: "Black Butler",
@@ -305,7 +335,7 @@ export const animeData: AnimeContent[] = [
     category: "Anime",
     rating: 7.6,
     review:
-      "Ciel Phantomhive takes care of the many unsettling events in Victorian England. Aided by Sebastian Michaelis, his loyal butler with seemingly inhuman abilities. But is there more to this black-clad butler than meets the eye?",
-    genre: ["Horror", "Thriller", "Fantasy"],
+      "A gothic supernatural drama with a refined aesthetic, dark deals, and an unforgettable demonic butler.",
+    genre: ["Supernatural", "Dark Fantasy", "Mystery"],
   },
 ];
