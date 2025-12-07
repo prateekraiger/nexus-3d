@@ -1,4 +1,3 @@
-import { IMAGES } from './images';
 
 export const NEXUS_CONFIG = {
   meta: {
@@ -9,7 +8,7 @@ export const NEXUS_CONFIG = {
   grid: {
     cols: 7,
     rows: 4,
-    spacing: { x: 380, y: 400, z: 400 },
+    spacing: { x: 500, y: 550, z: 600 },
     baseDepth: -900,
   },
   camera: {
@@ -20,20 +19,20 @@ export const NEXUS_CONFIG = {
       scroll: 0.6
     },
     limits: {
-      zMin: -5200,
-      zMax: 3000, // Increased Max to allow zooming out further
+      zMin: -6000,
+      zMax: 4000,
       pitchMin: -35,
       pitchMax: 25
     },
     initial: {
       x: -900,
       y: -900,
-      z: -300,
+      z: 800,
       pitch: -15,
       yaw: 0
     }
   },
-  images: IMAGES
+
 } as const;
 
 export type ConfigType = typeof NEXUS_CONFIG;
