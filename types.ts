@@ -25,6 +25,10 @@ export interface CardState {
   h: number;
   imgSrc: string;
   title: string;
+  category: string;
+  rating: number;
+  review: string;
+  genre: string[];
 }
 
 export interface CardInstance {

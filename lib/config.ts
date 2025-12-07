@@ -9,7 +9,7 @@ export const NEXUS_CONFIG = {
   grid: {
     cols: 7,
     rows: 4,
-    spacing: { x: 440, y: 300, z: 620 },
+    spacing: { x: 380, y: 400, z: 400 },
     baseDepth: -900,
   },
   camera: {
@@ -21,15 +21,15 @@ export const NEXUS_CONFIG = {
     },
     limits: {
       zMin: -5200,
-      zMax: 2200,
+      zMax: 3000, // Increased Max to allow zooming out further
       pitchMin: -35,
       pitchMax: 25
     },
     initial: {
-      x: 0,
-      y: 0,
-      z: 800,
-      pitch: -6,
+      x: -900,
+      y: -900,
+      z: -300,
+      pitch: -15,
       yaw: 0
     }
   },
